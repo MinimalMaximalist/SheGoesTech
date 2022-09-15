@@ -1,0 +1,5 @@
+# 1. Confusion
+my_name = input("What is your name?")
+my_name_backwards = my_name[::-1]
+print(my_name_backwards.capitalize(),", a thorough mess is it not ",my_name[0])
+
