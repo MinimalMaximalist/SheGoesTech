@@ -1,11 +1,11 @@
 #Cubes
 range_start = int(float(input("Pick a number that will determine the beginning of a range")))
 range_end = int(float(input("Pick a larger number that will determine the end of a range")))
-numbers = list(range(range_start,range_end+1))
-cubes = []
-for num in numbers:
-    cubes.append(num**3)
-print(cubes)
-print(f"{numbers} cubed is {cubes}")
+make_list = list(range(range_start,range_end+1))
 
-#  ^I don't know how to how to print each equatation in a new line
+cubes = []
+for num in make_list:
+    single_cube=num**3
+    cubes.append(single_cube)
+    print(f"{num} cubed: {single_cube}")
+print(f"All cubed is {cubes}")
