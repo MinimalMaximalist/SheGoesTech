@@ -5,7 +5,6 @@ numbers = list(range(range_start,range_end+1))
 cubes = []
 for num in numbers:
     cubes.append(num**3)
-print(numbers)
 print(cubes)
 print(f"{numbers} cubed is {cubes}")
 
